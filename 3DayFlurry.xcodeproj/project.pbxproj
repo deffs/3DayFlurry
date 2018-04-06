@@ -7,21 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9209D31C5EBEA63DF1017B86 /* Pods_3DayFlurry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3AF6A9384C2A9765E84DEDF /* Pods_3DayFlurry.framework */; };
 		CA9603182076FE3900F7CB51 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA9603172076FE3900F7CB51 /* AppDelegate.swift */; };
-		CA96031A2076FE3900F7CB51 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA9603192076FE3900F7CB51 /* ViewController.swift */; };
+		CA96031A2076FE3900F7CB51 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA9603192076FE3900F7CB51 /* MainVC.swift */; };
 		CA96031D2076FE3900F7CB51 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA96031B2076FE3900F7CB51 /* Main.storyboard */; };
 		CA96031F2076FE3B00F7CB51 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA96031E2076FE3B00F7CB51 /* Assets.xcassets */; };
 		CA9603222076FE3B00F7CB51 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA9603202076FE3B00F7CB51 /* LaunchScreen.storyboard */; };
+		CA96032A2076FED600F7CB51 /* Globals.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA9603292076FED600F7CB51 /* Globals.swift */; };
+		CA96032C2077141C00F7CB51 /* MainTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA96032B2077141C00F7CB51 /* MainTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C09EB447A5DC891E861A2379 /* Pods-3DayFlurry.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-3DayFlurry.release.xcconfig"; path = "Pods/Target Support Files/Pods-3DayFlurry/Pods-3DayFlurry.release.xcconfig"; sourceTree = "<group>"; };
 		CA9603142076FE3900F7CB51 /* 3DayFlurry.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 3DayFlurry.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA9603172076FE3900F7CB51 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CA9603192076FE3900F7CB51 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CA9603192076FE3900F7CB51 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
 		CA96031C2076FE3900F7CB51 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CA96031E2076FE3B00F7CB51 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CA9603212076FE3B00F7CB51 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CA9603232076FE3B00F7CB51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA9603292076FED600F7CB51 /* Globals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Globals.swift; sourceTree = "<group>"; };
+		CA96032B2077141C00F7CB51 /* MainTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewCell.swift; sourceTree = "<group>"; };
+		E3AF6A9384C2A9765E84DEDF /* Pods_3DayFlurry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_3DayFlurry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E68EF982E23CA33DE61516B7 /* Pods-3DayFlurry.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-3DayFlurry.debug.xcconfig"; path = "Pods/Target Support Files/Pods-3DayFlurry/Pods-3DayFlurry.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +37,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9209D31C5EBEA63DF1017B86 /* Pods_3DayFlurry.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C30C03426160BBBD1E985BEE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E68EF982E23CA33DE61516B7 /* Pods-3DayFlurry.debug.xcconfig */,
+				C09EB447A5DC891E861A2379 /* Pods-3DayFlurry.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		CA96030B2076FE3900F7CB51 = {
 			isa = PBXGroup;
 			children = (
 				CA9603162076FE3900F7CB51 /* 3DayFlurry */,
 				CA9603152076FE3900F7CB51 /* Products */,
+				C30C03426160BBBD1E985BEE /* Pods */,
+				EB6CC228A9D280506F0439C7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +75,23 @@
 			isa = PBXGroup;
 			children = (
 				CA9603172076FE3900F7CB51 /* AppDelegate.swift */,
-				CA9603192076FE3900F7CB51 /* ViewController.swift */,
+				CA9603192076FE3900F7CB51 /* MainVC.swift */,
+				CA9603292076FED600F7CB51 /* Globals.swift */,
+				CA96032B2077141C00F7CB51 /* MainTableViewCell.swift */,
 				CA96031B2076FE3900F7CB51 /* Main.storyboard */,
 				CA96031E2076FE3B00F7CB51 /* Assets.xcassets */,
 				CA9603202076FE3B00F7CB51 /* LaunchScreen.storyboard */,
 				CA9603232076FE3B00F7CB51 /* Info.plist */,
 			);
 			path = 3DayFlurry;
+			sourceTree = "<group>";
+		};
+		EB6CC228A9D280506F0439C7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E3AF6A9384C2A9765E84DEDF /* Pods_3DayFlurry.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +101,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CA9603262076FE3B00F7CB51 /* Build configuration list for PBXNativeTarget "3DayFlurry" */;
 			buildPhases = (
+				D20949B2EF93B7CBA2814EAE /* [CP] Check Pods Manifest.lock */,
 				CA9603102076FE3900F7CB51 /* Sources */,
 				CA9603112076FE3900F7CB51 /* Frameworks */,
 				CA9603122076FE3900F7CB51 /* Resources */,
+				A4CC2960EEE408C6B01B62B1 /* [CP] Embed Pods Frameworks */,
+				78B70579B7A3635C3536DF63 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -130,13 +163,69 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		78B70579B7A3635C3536DF63 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-3DayFlurry/Pods-3DayFlurry-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A4CC2960EEE408C6B01B62B1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-3DayFlurry/Pods-3DayFlurry-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-3DayFlurry/Pods-3DayFlurry-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D20949B2EF93B7CBA2814EAE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-3DayFlurry-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CA9603102076FE3900F7CB51 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CA96031A2076FE3900F7CB51 /* ViewController.swift in Sources */,
+				CA96031A2076FE3900F7CB51 /* MainVC.swift in Sources */,
 				CA9603182076FE3900F7CB51 /* AppDelegate.swift in Sources */,
+				CA96032C2077141C00F7CB51 /* MainTableViewCell.swift in Sources */,
+				CA96032A2076FED600F7CB51 /* Globals.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,11 +367,13 @@
 		};
 		CA9603272076FE3B00F7CB51 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E68EF982E23CA33DE61516B7 /* Pods-3DayFlurry.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PST2WR7437;
 				INFOPLIST_FILE = 3DayFlurry/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -296,11 +387,13 @@
 		};
 		CA9603282076FE3B00F7CB51 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C09EB447A5DC891E861A2379 /* Pods-3DayFlurry.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PST2WR7437;
 				INFOPLIST_FILE = 3DayFlurry/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
