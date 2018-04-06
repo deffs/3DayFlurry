@@ -21,11 +21,11 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="3 Day Forecast" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="T4h-t2-V9T">
-                                <rect key="frame" x="105.5" y="44" width="164" height="28"/>
+                                <rect key="frame" x="107" y="44" width="162.5" height="28"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="28" id="FoI-RM-yWv"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="24"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="24"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -66,7 +66,7 @@
                                 </connections>
                             </button>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" bounces="NO" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" style="plain" separatorStyle="none" allowsSelection="NO" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="o2H-zP-2qo">
-                                <rect key="frame" x="8" y="250" width="359" height="417"/>
+                                <rect key="frame" x="8" y="258" width="359" height="409"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="weatherCell" rowHeight="110" id="Fph-yC-Hgy" customClass="MainTableViewCell" customModule="_DayFlurry" customModuleProvider="target">
@@ -148,7 +148,7 @@
                             <constraint firstItem="Aby-pq-JQ2" firstAttribute="top" secondItem="Nam-yT-nP3" secondAttribute="bottom" constant="24" id="PMr-Tx-LMA"/>
                             <constraint firstItem="3aE-gQ-G6n" firstAttribute="top" secondItem="Aby-pq-JQ2" secondAttribute="bottom" constant="24" id="PPy-gF-16Z"/>
                             <constraint firstItem="Nam-yT-nP3" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="WHZ-5z-GF9"/>
-                            <constraint firstItem="o2H-zP-2qo" firstAttribute="top" secondItem="3aE-gQ-G6n" secondAttribute="bottom" constant="16" id="YCe-6a-fqc"/>
+                            <constraint firstItem="o2H-zP-2qo" firstAttribute="top" secondItem="3aE-gQ-G6n" secondAttribute="bottom" constant="24" id="YCe-6a-fqc"/>
                             <constraint firstItem="Nam-yT-nP3" firstAttribute="top" secondItem="T4h-t2-V9T" secondAttribute="bottom" constant="24" id="e2U-ZW-vwd"/>
                             <constraint firstItem="o2H-zP-2qo" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="8" id="g1g-8K-Jhw"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="o2H-zP-2qo" secondAttribute="trailing" constant="8" id="k9u-6D-YEh"/>
