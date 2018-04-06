@@ -50,8 +50,18 @@ class MainVC: UIViewController {
     
 
     func getWeather(completed: @escaping DownloadComplete) {
-        guard stateBox.text != "" else { return }
-        guard cityBox.text != "" else { return }
+        guard stateBox.text != "" else {
+            self.stateBox.layer.borderWidth = 2.0
+            self.stateBox.layer.borderColor = #colorLiteral(red: 1, green: 0.1491314173, blue: 0, alpha: 1)
+            return
+        }
+        self.stateBox.layer.borderColor = #colorLiteral(red: 0, green: 0, blue: 0, alpha: 0)
+        guard cityBox.text != "" else {
+            self.cityBox.layer.borderWidth = 2.0
+            self.cityBox.layer.borderColor = #colorLiteral(red: 1, green: 0.1491314173, blue: 0, alpha: 1)
+            return
+        }
+        self.cityBox.layer.borderColor = #colorLiteral(red: 0, green: 0, blue: 0, alpha: 0)
         if (stateBox.text?.count)! != 2 {
             let alert = UIAlertController(title: "Error", message: "Please Enter A Binary State Code", preferredStyle: UIAlertControllerStyle.alert)
             alert.addAction(UIAlertAction(title: "Close", style: UIAlertActionStyle.default, handler: nil))

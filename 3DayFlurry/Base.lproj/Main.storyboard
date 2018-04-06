@@ -21,7 +21,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="3 Day Forecast" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="T4h-t2-V9T">
-                                <rect key="frame" x="105.5" y="36" width="164" height="28"/>
+                                <rect key="frame" x="105.5" y="44" width="164" height="28"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="28" id="FoI-RM-yWv"/>
                                 </constraints>
@@ -41,7 +41,7 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="City" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Aby-pq-JQ2">
-                                <rect key="frame" x="103.5" y="158" width="168" height="30"/>
+                                <rect key="frame" x="103.5" y="150" width="168" height="30"/>
                                 <color key="backgroundColor" red="0.0" green="0.32852089410000002" blue="0.57488495110000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="168" id="JLg-A5-xjE"/>
@@ -145,15 +145,15 @@
                             <constraint firstItem="3aE-gQ-G6n" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="5Fu-iz-grX"/>
                             <constraint firstItem="T4h-t2-V9T" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="BJ4-RG-tt4"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="o2H-zP-2qo" secondAttribute="bottom" id="Msi-zf-Ubf"/>
-                            <constraint firstItem="Aby-pq-JQ2" firstAttribute="top" secondItem="Nam-yT-nP3" secondAttribute="bottom" constant="32" id="PMr-Tx-LMA"/>
-                            <constraint firstItem="3aE-gQ-G6n" firstAttribute="top" secondItem="Aby-pq-JQ2" secondAttribute="bottom" constant="16" id="PPy-gF-16Z"/>
+                            <constraint firstItem="Aby-pq-JQ2" firstAttribute="top" secondItem="Nam-yT-nP3" secondAttribute="bottom" constant="24" id="PMr-Tx-LMA"/>
+                            <constraint firstItem="3aE-gQ-G6n" firstAttribute="top" secondItem="Aby-pq-JQ2" secondAttribute="bottom" constant="24" id="PPy-gF-16Z"/>
                             <constraint firstItem="Nam-yT-nP3" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="WHZ-5z-GF9"/>
                             <constraint firstItem="o2H-zP-2qo" firstAttribute="top" secondItem="3aE-gQ-G6n" secondAttribute="bottom" constant="16" id="YCe-6a-fqc"/>
-                            <constraint firstItem="Nam-yT-nP3" firstAttribute="top" secondItem="T4h-t2-V9T" secondAttribute="bottom" constant="32" id="e2U-ZW-vwd"/>
+                            <constraint firstItem="Nam-yT-nP3" firstAttribute="top" secondItem="T4h-t2-V9T" secondAttribute="bottom" constant="24" id="e2U-ZW-vwd"/>
                             <constraint firstItem="o2H-zP-2qo" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="8" id="g1g-8K-Jhw"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="o2H-zP-2qo" secondAttribute="trailing" constant="8" id="k9u-6D-YEh"/>
                             <constraint firstItem="Aby-pq-JQ2" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="uZ2-6h-rDR"/>
-                            <constraint firstItem="T4h-t2-V9T" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="16" id="wtE-FU-0qo"/>
+                            <constraint firstItem="T4h-t2-V9T" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="24" id="wtE-FU-0qo"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
