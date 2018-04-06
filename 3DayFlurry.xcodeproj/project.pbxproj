@@ -15,7 +15,18 @@
 		CA9603222076FE3B00F7CB51 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA9603202076FE3B00F7CB51 /* LaunchScreen.storyboard */; };
 		CA96032A2076FED600F7CB51 /* Globals.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA9603292076FED600F7CB51 /* Globals.swift */; };
 		CA96032C2077141C00F7CB51 /* MainTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA96032B2077141C00F7CB51 /* MainTableViewCell.swift */; };
+		CA9603342077D58A00F7CB51 /* _DayFlurryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA9603332077D58A00F7CB51 /* _DayFlurryUITests.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CA9603362077D58A00F7CB51 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA96030C2076FE3900F7CB51 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA9603132076FE3900F7CB51;
+			remoteInfo = 3DayFlurry;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		C09EB447A5DC891E861A2379 /* Pods-3DayFlurry.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-3DayFlurry.release.xcconfig"; path = "Pods/Target Support Files/Pods-3DayFlurry/Pods-3DayFlurry.release.xcconfig"; sourceTree = "<group>"; };
@@ -28,6 +39,9 @@
 		CA9603232076FE3B00F7CB51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CA9603292076FED600F7CB51 /* Globals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Globals.swift; sourceTree = "<group>"; };
 		CA96032B2077141C00F7CB51 /* MainTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewCell.swift; sourceTree = "<group>"; };
+		CA9603312077D58A00F7CB51 /* 3DayFlurryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 3DayFlurryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA9603332077D58A00F7CB51 /* _DayFlurryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _DayFlurryUITests.swift; sourceTree = "<group>"; };
+		CA9603352077D58A00F7CB51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E3AF6A9384C2A9765E84DEDF /* Pods_3DayFlurry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_3DayFlurry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E68EF982E23CA33DE61516B7 /* Pods-3DayFlurry.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-3DayFlurry.debug.xcconfig"; path = "Pods/Target Support Files/Pods-3DayFlurry/Pods-3DayFlurry.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -38,6 +52,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				9209D31C5EBEA63DF1017B86 /* Pods_3DayFlurry.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA96032E2077D58A00F7CB51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -57,6 +78,7 @@
 			isa = PBXGroup;
 			children = (
 				CA9603162076FE3900F7CB51 /* 3DayFlurry */,
+				CA9603322077D58A00F7CB51 /* 3DayFlurryUITests */,
 				CA9603152076FE3900F7CB51 /* Products */,
 				C30C03426160BBBD1E985BEE /* Pods */,
 				EB6CC228A9D280506F0439C7 /* Frameworks */,
@@ -67,6 +89,7 @@
 			isa = PBXGroup;
 			children = (
 				CA9603142076FE3900F7CB51 /* 3DayFlurry.app */,
+				CA9603312077D58A00F7CB51 /* 3DayFlurryUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -84,6 +107,15 @@
 				CA9603232076FE3B00F7CB51 /* Info.plist */,
 			);
 			path = 3DayFlurry;
+			sourceTree = "<group>";
+		};
+		CA9603322077D58A00F7CB51 /* 3DayFlurryUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CA9603332077D58A00F7CB51 /* _DayFlurryUITests.swift */,
+				CA9603352077D58A00F7CB51 /* Info.plist */,
+			);
+			path = 3DayFlurryUITests;
 			sourceTree = "<group>";
 		};
 		EB6CC228A9D280506F0439C7 /* Frameworks */ = {
@@ -117,6 +149,24 @@
 			productReference = CA9603142076FE3900F7CB51 /* 3DayFlurry.app */;
 			productType = "com.apple.product-type.application";
 		};
+		CA9603302077D58A00F7CB51 /* 3DayFlurryUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA96033A2077D58A00F7CB51 /* Build configuration list for PBXNativeTarget "3DayFlurryUITests" */;
+			buildPhases = (
+				CA96032D2077D58A00F7CB51 /* Sources */,
+				CA96032E2077D58A00F7CB51 /* Frameworks */,
+				CA96032F2077D58A00F7CB51 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA9603372077D58A00F7CB51 /* PBXTargetDependency */,
+			);
+			name = 3DayFlurryUITests;
+			productName = 3DayFlurryUITests;
+			productReference = CA9603312077D58A00F7CB51 /* 3DayFlurryUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -129,6 +179,10 @@
 				TargetAttributes = {
 					CA9603132076FE3900F7CB51 = {
 						CreatedOnToolsVersion = 9.3;
+					};
+					CA9603302077D58A00F7CB51 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = CA9603132076FE3900F7CB51;
 					};
 				};
 			};
@@ -146,6 +200,7 @@
 			projectRoot = "";
 			targets = (
 				CA9603132076FE3900F7CB51 /* 3DayFlurry */,
+				CA9603302077D58A00F7CB51 /* 3DayFlurryUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -158,6 +213,13 @@
 				CA9603222076FE3B00F7CB51 /* LaunchScreen.storyboard in Resources */,
 				CA96031F2076FE3B00F7CB51 /* Assets.xcassets in Resources */,
 				CA96031D2076FE3900F7CB51 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA96032F2077D58A00F7CB51 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -229,7 +291,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		CA96032D2077D58A00F7CB51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA9603342077D58A00F7CB51 /* _DayFlurryUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CA9603372077D58A00F7CB51 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CA9603132076FE3900F7CB51 /* 3DayFlurry */;
+			targetProxy = CA9603362077D58A00F7CB51 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		CA96031B2076FE3900F7CB51 /* Main.storyboard */ = {
@@ -405,6 +483,44 @@
 			};
 			name = Release;
 		};
+		CA9603382077D58A00F7CB51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PST2WR7437;
+				INFOPLIST_FILE = 3DayFlurryUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "swifty.defrance.-DayFlurryUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = 3DayFlurry;
+			};
+			name = Debug;
+		};
+		CA9603392077D58A00F7CB51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PST2WR7437;
+				INFOPLIST_FILE = 3DayFlurryUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "swifty.defrance.-DayFlurryUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = 3DayFlurry;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -422,6 +538,15 @@
 			buildConfigurations = (
 				CA9603272076FE3B00F7CB51 /* Debug */,
 				CA9603282076FE3B00F7CB51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA96033A2077D58A00F7CB51 /* Build configuration list for PBXNativeTarget "3DayFlurryUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA9603382077D58A00F7CB51 /* Debug */,
+				CA9603392077D58A00F7CB51 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
