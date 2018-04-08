@@ -91,6 +91,12 @@ class MainVC: UIViewController {
                                 else if icon == "chancetstorms" || icon == "tstorms" {
                                     icon = "thunderstorm"
                                 }
+                                else if icon == "chancerain" {
+                                    icon = "rain"
+                                }
+                                else if icon == "chancesnow" {
+                                    icon = "snow"
+                                }
                                 weather.icon = icon!
                                 weather.title = forecastday[x]["title"] as? String
                                 weather.text = forecastday[x]["fcttext_metric"] as? String
